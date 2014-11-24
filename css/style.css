@@ -1,0 +1,83 @@
+body
+{
+    background-color: #C9F;
+    position: relative;
+}
+#mainroad
+{
+    width: 350px;
+    height: 16000px;
+    background-image: url(../images/road.png);
+    background-repeat: repeat-y;
+    position: absolute;
+}
+#maincontainer
+{
+    width: 350px;
+    max-height: 650px;
+    height: 650px;
+    margin-top: 50px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.opponent
+{
+    position: absolute;
+    width: 50px;
+    height: 54px;
+    background-image: url(../images/opponent-car.png);
+}
+
+.owncar
+{
+    position: absolute;
+    width: 50px;
+    height: 54px;
+    background-image: url('../images/main-car.png');
+    top: 600px;
+    left: 150px;
+    z-index: 2;
+}
+.bullet {
+    position: absolute;
+    width: 21px;
+    height: 100px;
+    background-image: url(../images/firing-bullet.png);
+    z-index: 1;
+}
+#score {
+    position: absolute;
+    top:0px;
+    left: 70px;
+    z-index: 10;
+    background-color: #C9F;
+    font-size: 30px;
+    
+}
+#menuscreen {
+    background-color: #CCC;
+    height: 300px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-position: top;
+    left: 25%;
+    top: 150px;
+    position: absolute;
+    z-index: 4;
+    padding:50px;
+    border-radius: 50px;
+    border: 5px #CCCCCC double;
+}
+.playbtn {
+    height: 120px;
+    width: 220px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 200px;
+     
+}
+.playbtn:hover {
+    background-color: #A2420E;
+}
