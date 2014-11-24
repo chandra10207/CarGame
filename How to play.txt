@@ -1,0 +1,8 @@
+How to play
+
+
+1. click left right key to move left/right.
+2. click up key to fire bullet.
+
+
+Thank you.
